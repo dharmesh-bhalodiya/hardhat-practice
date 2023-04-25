@@ -9,5 +9,9 @@ module.exports = {
       url: process.env.ALCHEMY_TESTNET_RPC_URL,
       accounts: [process.env.TESTNET_PRIVATE_KEY]
     },
+    goerli:{
+      url: process.env.GOERLI_TESTNET_RPC_URL,
+      accounts: [process.env.TESTNET_PRIVATE_KEY]
+    }
   },
 };
